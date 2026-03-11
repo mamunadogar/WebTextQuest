@@ -7,8 +7,7 @@ const fs = require('fs');
 const path = require('path');
 const childProcess = require('child_process')
 
-// Base Directory - Assuming minimal-http-server 
-// will be accessed  from its own folder.
+
 const baseDir = path.join(__dirname, '.');
 // Create a server
 
